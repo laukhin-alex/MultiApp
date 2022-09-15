@@ -34,11 +34,22 @@
 		1F281DA528D32F8A00EC6947 /* tvOSTargetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DA428D32F8A00EC6947 /* tvOSTargetApp.swift */; };
 		1F281DA928D32F8B00EC6947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DA828D32F8B00EC6947 /* Assets.xcassets */; };
 		1F281DAC28D32F8B00EC6947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DAB28D32F8B00EC6947 /* Preview Assets.xcassets */; };
-		1F281DB028D32F9600EC6947 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9228D32AF700EC6947 /* PlayView.swift */; };
 		1F281DB128D32F9800EC6947 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9628D32B2000EC6947 /* SettingsView.swift */; };
 		1F281DB228D32F9B00EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
 		1F281DB328D32FA100EC6947 /* MultiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1C28D3230600EC6947 /* MultiAppApp.swift */; };
 		1F281DB428D32FA400EC6947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1E28D3230600EC6947 /* ContentView.swift */; };
+		1F281DB628D33C5B00EC6947 /* PlayViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */; };
+		1F281DB728D33C5B00EC6947 /* PlayViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */; };
+		1F281DB828D33C5B00EC6947 /* PlayViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */; };
+		1F281DB928D33C5B00EC6947 /* PlayViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */; };
+		1F281DBB28D34A0900EC6947 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBA28D34A0900EC6947 /* Extensions.swift */; };
+		1F281DBC28D34A0900EC6947 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBA28D34A0900EC6947 /* Extensions.swift */; };
+		1F281DBD28D34A0900EC6947 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBA28D34A0900EC6947 /* Extensions.swift */; };
+		1F281DBE28D34A0900EC6947 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBA28D34A0900EC6947 /* Extensions.swift */; };
+		1F281DC028D358F700EC6947 /* watchOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBF28D358F700EC6947 /* watchOSContentView.swift */; };
+		1F281DC128D358F700EC6947 /* watchOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBF28D358F700EC6947 /* watchOSContentView.swift */; };
+		1F281DC228D358F700EC6947 /* watchOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBF28D358F700EC6947 /* watchOSContentView.swift */; };
+		1F281DC328D358F700EC6947 /* watchOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBF28D358F700EC6947 /* watchOSContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +99,9 @@
 		1F281DA428D32F8A00EC6947 /* tvOSTargetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSTargetApp.swift; sourceTree = "<group>"; };
 		1F281DA828D32F8B00EC6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F281DAB28D32F8B00EC6947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModal.swift; sourceTree = "<group>"; };
+		1F281DBA28D34A0900EC6947 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1F281DBF28D358F700EC6947 /* watchOSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOSContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +162,7 @@
 		1F281D1B28D3230600EC6947 /* MultiApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F281DBA28D34A0900EC6947 /* Extensions.swift */,
 				1F281D9128D32ABC00EC6947 /* Views */,
 				1F281D9028D32AAA00EC6947 /* ViewModels */,
 				1F281D1C28D3230600EC6947 /* MultiAppApp.swift */,
@@ -206,6 +221,7 @@
 		1F281D9028D32AAA00EC6947 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -224,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				1F281DA428D32F8A00EC6947 /* tvOSTargetApp.swift */,
+				1F281DBF28D358F700EC6947 /* watchOSContentView.swift */,
 				1F281DA828D32F8B00EC6947 /* Assets.xcassets */,
 				1F281DAA28D32F8B00EC6947 /* Preview Content */,
 			);
@@ -428,9 +445,12 @@
 			files = (
 				1F281D9B28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281D9328D32AF700EC6947 /* PlayView.swift in Sources */,
+				1F281DC028D358F700EC6947 /* watchOSContentView.swift in Sources */,
 				1F281D9728D32B2000EC6947 /* SettingsView.swift in Sources */,
 				1F281D1F28D3230600EC6947 /* ContentView.swift in Sources */,
+				1F281DB628D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
 				1F281D1D28D3230600EC6947 /* MultiAppApp.swift in Sources */,
+				1F281DBB28D34A0900EC6947 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,9 +460,12 @@
 			files = (
 				1F281D9828D32B2000EC6947 /* SettingsView.swift in Sources */,
 				1F281D7028D3291000EC6947 /* ContentView.swift in Sources */,
+				1F281DC128D358F700EC6947 /* watchOSContentView.swift in Sources */,
 				1F281D7128D3291400EC6947 /* MultiAppApp.swift in Sources */,
+				1F281DBC28D34A0900EC6947 /* Extensions.swift in Sources */,
 				1F281D9428D32AF700EC6947 /* PlayView.swift in Sources */,
 				1F281D9C28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
+				1F281DB728D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
 				1F281D6528D3290000EC6947 /* iOSTargetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,9 +476,12 @@
 			files = (
 				1F281D9928D32B2000EC6947 /* SettingsView.swift in Sources */,
 				1F281D7F28D3299D00EC6947 /* watchOSTargetApp.swift in Sources */,
+				1F281DC228D358F700EC6947 /* watchOSContentView.swift in Sources */,
 				1F281D8E28D329B100EC6947 /* MultiAppApp.swift in Sources */,
+				1F281DBD28D34A0900EC6947 /* Extensions.swift in Sources */,
 				1F281D9528D32AF700EC6947 /* PlayView.swift in Sources */,
 				1F281D9D28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
+				1F281DB828D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
 				1F281D8F28D329B400EC6947 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,9 +492,11 @@
 			files = (
 				1F281DB228D32F9B00EC6947 /* LeaderboardView.swift in Sources */,
 				1F281DB328D32FA100EC6947 /* MultiAppApp.swift in Sources */,
+				1F281DC328D358F700EC6947 /* watchOSContentView.swift in Sources */,
 				1F281DB428D32FA400EC6947 /* ContentView.swift in Sources */,
-				1F281DB028D32F9600EC6947 /* PlayView.swift in Sources */,
+				1F281DBE28D34A0900EC6947 /* Extensions.swift in Sources */,
 				1F281DB128D32F9800EC6947 /* SettingsView.swift in Sources */,
+				1F281DB928D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
 				1F281DA528D32F8A00EC6947 /* tvOSTargetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
