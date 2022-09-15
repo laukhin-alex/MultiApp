@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct watchOSContentView: View {
+struct WatchOSContentView: View {
     @ObservedObject var playView = guessNumber()
     @State var allertText = ""
     @State var showsAlert = false
@@ -74,6 +74,6 @@ struct watchOSContentView: View {
 
 struct watchOSContentView_Previews: PreviewProvider {
     static var previews: some View {
-        watchOSContentView()
+        WatchOSContentView()
     }
 }

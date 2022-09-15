@@ -12,11 +12,19 @@ struct ContentView: View {
     
     var body: some View {
         TabView(selection: $tabSelection) {
+#if os(watchOS)
+            WatchOSContentView()
+                .tag(0)
+                .tabItem {
+                    Label("Play", systemImage: "keyboard")
+                }
+#else
             PlayView()
                 .tag(0)
                 .tabItem {
                     Label("Play", systemImage: "keyboard")
                 }
+#endif
             SettingsView()
                 .tag(1)
                 .tabItem {
