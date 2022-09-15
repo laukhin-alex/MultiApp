@@ -22,6 +22,15 @@
 		1F281D8628D3299F00EC6947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F281D8528D3299F00EC6947 /* Preview Assets.xcassets */; };
 		1F281D8E28D329B100EC6947 /* MultiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1C28D3230600EC6947 /* MultiAppApp.swift */; };
 		1F281D8F28D329B400EC6947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1E28D3230600EC6947 /* ContentView.swift */; };
+		1F281D9328D32AF700EC6947 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9228D32AF700EC6947 /* PlayView.swift */; };
+		1F281D9428D32AF700EC6947 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9228D32AF700EC6947 /* PlayView.swift */; };
+		1F281D9528D32AF700EC6947 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9228D32AF700EC6947 /* PlayView.swift */; };
+		1F281D9728D32B2000EC6947 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9628D32B2000EC6947 /* SettingsView.swift */; };
+		1F281D9828D32B2000EC6947 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9628D32B2000EC6947 /* SettingsView.swift */; };
+		1F281D9928D32B2000EC6947 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9628D32B2000EC6947 /* SettingsView.swift */; };
+		1F281D9B28D32B4100EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
+		1F281D9C28D32B4100EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
+		1F281D9D28D32B4100EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +73,9 @@
 		1F281D7E28D3299D00EC6947 /* watchOSTargetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOSTargetApp.swift; sourceTree = "<group>"; };
 		1F281D8228D3299F00EC6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F281D8528D3299F00EC6947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F281D9228D32AF700EC6947 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		1F281D9628D32B2000EC6947 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +127,8 @@
 		1F281D1B28D3230600EC6947 /* MultiApp */ = {
 			isa = PBXGroup;
 			children = (
+				1F281D9128D32ABC00EC6947 /* Views */,
+				1F281D9028D32AAA00EC6947 /* ViewModels */,
 				1F281D1C28D3230600EC6947 /* MultiAppApp.swift */,
 				1F281D1E28D3230600EC6947 /* ContentView.swift */,
 				1F281D2028D3230800EC6947 /* Assets.xcassets */,
@@ -166,6 +180,23 @@
 				1F281D8528D3299F00EC6947 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F281D9028D32AAA00EC6947 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1F281D9128D32ABC00EC6947 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F281D9228D32AF700EC6947 /* PlayView.swift */,
+				1F281D9628D32B2000EC6947 /* SettingsView.swift */,
+				1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +357,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281D9B28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
+				1F281D9328D32AF700EC6947 /* PlayView.swift in Sources */,
+				1F281D9728D32B2000EC6947 /* SettingsView.swift in Sources */,
 				1F281D1F28D3230600EC6947 /* ContentView.swift in Sources */,
 				1F281D1D28D3230600EC6947 /* MultiAppApp.swift in Sources */,
 			);
@@ -335,8 +369,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281D9828D32B2000EC6947 /* SettingsView.swift in Sources */,
 				1F281D7028D3291000EC6947 /* ContentView.swift in Sources */,
 				1F281D7128D3291400EC6947 /* MultiAppApp.swift in Sources */,
+				1F281D9428D32AF700EC6947 /* PlayView.swift in Sources */,
+				1F281D9C28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281D6528D3290000EC6947 /* iOSTargetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +382,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281D9928D32B2000EC6947 /* SettingsView.swift in Sources */,
 				1F281D7F28D3299D00EC6947 /* watchOSTargetApp.swift in Sources */,
 				1F281D8E28D329B100EC6947 /* MultiAppApp.swift in Sources */,
+				1F281D9528D32AF700EC6947 /* PlayView.swift in Sources */,
+				1F281D9D28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281D8F28D329B400EC6947 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
