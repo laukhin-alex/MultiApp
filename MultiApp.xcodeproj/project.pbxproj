@@ -31,6 +31,14 @@
 		1F281D9B28D32B4100EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
 		1F281D9C28D32B4100EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
 		1F281D9D28D32B4100EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
+		1F281DA528D32F8A00EC6947 /* tvOSTargetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DA428D32F8A00EC6947 /* tvOSTargetApp.swift */; };
+		1F281DA928D32F8B00EC6947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DA828D32F8B00EC6947 /* Assets.xcassets */; };
+		1F281DAC28D32F8B00EC6947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DAB28D32F8B00EC6947 /* Preview Assets.xcassets */; };
+		1F281DB028D32F9600EC6947 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9228D32AF700EC6947 /* PlayView.swift */; };
+		1F281DB128D32F9800EC6947 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9628D32B2000EC6947 /* SettingsView.swift */; };
+		1F281DB228D32F9B00EC6947 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */; };
+		1F281DB328D32FA100EC6947 /* MultiAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1C28D3230600EC6947 /* MultiAppApp.swift */; };
+		1F281DB428D32FA400EC6947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1E28D3230600EC6947 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +84,10 @@
 		1F281D9228D32AF700EC6947 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 		1F281D9628D32B2000EC6947 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1F281D9A28D32B4100EC6947 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		1F281DA228D32F8A00EC6947 /* tvOSTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F281DA428D32F8A00EC6947 /* tvOSTargetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOSTargetApp.swift; sourceTree = "<group>"; };
+		1F281DA828D32F8B00EC6947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F281DAB28D32F8B00EC6947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F281D9F28D32F8900EC6947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -109,6 +128,7 @@
 				1F281D1B28D3230600EC6947 /* MultiApp */,
 				1F281D6328D3290000EC6947 /* iOSTarget */,
 				1F281D7D28D3299D00EC6947 /* watchOSTarget Watch App */,
+				1F281DA328D32F8A00EC6947 /* tvOSTarget */,
 				1F281D1A28D3230600EC6947 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,6 +140,7 @@
 				1F281D6228D3290000EC6947 /* iOSTarget.app */,
 				1F281D7428D3299D00EC6947 /* watchOSTarget.app */,
 				1F281D7928D3299D00EC6947 /* watchOSTarget Watch App.app */,
+				1F281DA228D32F8A00EC6947 /* tvOSTarget.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -199,6 +220,24 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		1F281DA328D32F8A00EC6947 /* tvOSTarget */ = {
+			isa = PBXGroup;
+			children = (
+				1F281DA428D32F8A00EC6947 /* tvOSTargetApp.swift */,
+				1F281DA828D32F8B00EC6947 /* Assets.xcassets */,
+				1F281DAA28D32F8B00EC6947 /* Preview Content */,
+			);
+			path = tvOSTarget;
+			sourceTree = "<group>";
+		};
+		1F281DAA28D32F8B00EC6947 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F281DAB28D32F8B00EC6947 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -270,6 +309,23 @@
 			productReference = 1F281D7928D3299D00EC6947 /* watchOSTarget Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1F281DA128D32F8900EC6947 /* tvOSTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F281DAF28D32F8B00EC6947 /* Build configuration list for PBXNativeTarget "tvOSTarget" */;
+			buildPhases = (
+				1F281D9E28D32F8900EC6947 /* Sources */,
+				1F281D9F28D32F8900EC6947 /* Frameworks */,
+				1F281DA028D32F8900EC6947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOSTarget;
+			productName = tvOSTarget;
+			productReference = 1F281DA228D32F8A00EC6947 /* tvOSTarget.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -292,6 +348,9 @@
 					1F281D7828D3299D00EC6947 = {
 						CreatedOnToolsVersion = 14.0;
 					};
+					1F281DA128D32F8900EC6947 = {
+						CreatedOnToolsVersion = 14.0;
+					};
 				};
 			};
 			buildConfigurationList = 1F281D1428D3230600EC6947 /* Build configuration list for PBXProject "MultiApp" */;
@@ -311,6 +370,7 @@
 				1F281D6128D3290000EC6947 /* iOSTarget */,
 				1F281D7328D3299D00EC6947 /* watchOSTarget */,
 				1F281D7828D3299D00EC6947 /* watchOSTarget Watch App */,
+				1F281DA128D32F8900EC6947 /* tvOSTarget */,
 			);
 		};
 /* End PBXProject section */
@@ -347,6 +407,15 @@
 			files = (
 				1F281D8628D3299F00EC6947 /* Preview Assets.xcassets in Resources */,
 				1F281D8328D3299F00EC6947 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F281DA028D32F8900EC6947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F281DAC28D32F8B00EC6947 /* Preview Assets.xcassets in Resources */,
+				1F281DA928D32F8B00EC6947 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +457,19 @@
 				1F281D9528D32AF700EC6947 /* PlayView.swift in Sources */,
 				1F281D9D28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281D8F28D329B400EC6947 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F281D9E28D32F8900EC6947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F281DB228D32F9B00EC6947 /* LeaderboardView.swift in Sources */,
+				1F281DB328D32FA100EC6947 /* MultiAppApp.swift in Sources */,
+				1F281DB428D32FA400EC6947 /* ContentView.swift in Sources */,
+				1F281DB028D32F9600EC6947 /* PlayView.swift in Sources */,
+				1F281DB128D32F9800EC6947 /* SettingsView.swift in Sources */,
+				1F281DA528D32F8A00EC6947 /* tvOSTargetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +826,63 @@
 			};
 			name = Release;
 		};
+		1F281DAD28D32F8B00EC6947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOSTarget/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JQR5WH86M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nothing.tvOSTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		1F281DAE28D32F8B00EC6947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOSTarget/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JQR5WH86M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nothing.tvOSTarget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -788,6 +927,15 @@
 			buildConfigurations = (
 				1F281D8C28D3299F00EC6947 /* Debug */,
 				1F281D8D28D3299F00EC6947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F281DAF28D32F8B00EC6947 /* Build configuration list for PBXNativeTarget "tvOSTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F281DAD28D32F8B00EC6947 /* Debug */,
+				1F281DAE28D32F8B00EC6947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
