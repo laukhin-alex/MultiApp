@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct WatchOSContentView: View {
-    @ObservedObject var playView = guessNumber()
+    @EnvironmentObject var playView: GuessNumber
     @State var allertText = ""
     @State var showsAlert = false
     @State var checkNumber = ""

@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct LeaderboardView: View {
+    @EnvironmentObject var tries: GuessNumber
+
     var body: some View {
-        Text("Lead!")
+        VStack {
+            List{
+                ForEach(self.tries.finalCount, id:\.self){ text in
+                    Text(text)
+                }
+            }
+        }
     }
 }
-
 struct LeaderboardView_Previews: PreviewProvider {
     static var previews: some View {
         LeaderboardView()

@@ -6,10 +6,20 @@
 //
 
 import SwiftUI
+import SwiftySound
 
 struct SettingsView: View {
+@ObservedObject var settings = SettingsViewModal()
+    @State var isToggled = true
     var body: some View {
-        Text("Settings")
+        VStack {
+            Text("Settings")
+            Toggle("Звук вкл/выкл", isOn: $isToggled).padding(.horizontal).onChange(of: isToggled) { value in
+                settings.mute()
+            }
+
+            Spacer()
+        }
     }
 }
 

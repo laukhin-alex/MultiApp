@@ -9,17 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     @State var tabSelection: Int = 0
-    
+    @ObservedObject var playingViewModal = GuessNumber()
+
     var body: some View {
         TabView(selection: $tabSelection) {
 #if os(watchOS)
             WatchOSContentView()
+                .environmentObject(playingViewModal)
                 .tag(0)
                 .tabItem {
                     Label("Play", systemImage: "keyboard")
                 }
 #else
             PlayView()
+                .environmentObject(playingViewModal)
                 .tag(0)
                 .tabItem {
                     Label("Play", systemImage: "keyboard")
@@ -31,6 +34,7 @@ struct ContentView: View {
                     Label("Settings", systemImage: "wrench.fill")
                 }
             LeaderboardView()
+                .environmentObject(playingViewModal)
                 .tag(2)
                 .tabItem {
                     Label("Leaders", systemImage: "list.number")

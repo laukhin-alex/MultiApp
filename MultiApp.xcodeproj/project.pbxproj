@@ -47,6 +47,22 @@
 		1F281DBE28D34A0900EC6947 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBA28D34A0900EC6947 /* Extensions.swift */; };
 		1F281DC228D358F700EC6947 /* watchOSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DBF28D358F700EC6947 /* watchOSContentView.swift */; };
 		1F281DC428D35FF000EC6947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281D1E28D3230600EC6947 /* ContentView.swift */; };
+		1F281DC628D365F200EC6947 /* SettingsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DC528D365F200EC6947 /* SettingsViewModal.swift */; };
+		1F281DC728D365F200EC6947 /* SettingsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DC528D365F200EC6947 /* SettingsViewModal.swift */; };
+		1F281DC828D365F200EC6947 /* SettingsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DC528D365F200EC6947 /* SettingsViewModal.swift */; };
+		1F281DC928D365F200EC6947 /* SettingsViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F281DC528D365F200EC6947 /* SettingsViewModal.swift */; };
+		1F281DCF28D36A4500EC6947 /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 1F281DCE28D36A4500EC6947 /* SwiftySound */; };
+		1F281DD128D36A4F00EC6947 /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 1F281DD028D36A4F00EC6947 /* SwiftySound */; };
+		1F281DD328D36A5700EC6947 /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 1F281DD228D36A5700EC6947 /* SwiftySound */; };
+		1F281DD528D36A5B00EC6947 /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 1F281DD428D36A5B00EC6947 /* SwiftySound */; };
+		1F281DE828D4AC0500EC6947 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE628D4AC0400EC6947 /* cat.wav */; };
+		1F281DE928D4AC0500EC6947 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE628D4AC0400EC6947 /* cat.wav */; };
+		1F281DEA28D4AC0500EC6947 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE628D4AC0400EC6947 /* cat.wav */; };
+		1F281DEB28D4AC0500EC6947 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE628D4AC0400EC6947 /* cat.wav */; };
+		1F281DEC28D4AC0500EC6947 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE728D4AC0500EC6947 /* dog.wav */; };
+		1F281DED28D4AC0500EC6947 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE728D4AC0500EC6947 /* dog.wav */; };
+		1F281DEE28D4AC0500EC6947 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE728D4AC0500EC6947 /* dog.wav */; };
+		1F281DEF28D4AC0500EC6947 /* dog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F281DE728D4AC0500EC6947 /* dog.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +115,9 @@
 		1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModal.swift; sourceTree = "<group>"; };
 		1F281DBA28D34A0900EC6947 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		1F281DBF28D358F700EC6947 /* watchOSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchOSContentView.swift; sourceTree = "<group>"; };
+		1F281DC528D365F200EC6947 /* SettingsViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModal.swift; sourceTree = "<group>"; };
+		1F281DE628D4AC0400EC6947 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
+		1F281DE728D4AC0500EC6947 /* dog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dog.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DCF28D36A4500EC6947 /* SwiftySound in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DD128D36A4F00EC6947 /* SwiftySound in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DD328D36A5700EC6947 /* SwiftySound in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DD528D36A5B00EC6947 /* SwiftySound in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +164,7 @@
 				1F281D7D28D3299D00EC6947 /* watchOSTarget Watch App */,
 				1F281DA328D32F8A00EC6947 /* tvOSTarget */,
 				1F281D1A28D3230600EC6947 /* Products */,
+				1F281DCD28D36A4500EC6947 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -220,6 +244,9 @@
 			isa = PBXGroup;
 			children = (
 				1F281DB528D33C5B00EC6947 /* PlayViewModal.swift */,
+				1F281DC528D365F200EC6947 /* SettingsViewModal.swift */,
+				1F281DE628D4AC0400EC6947 /* cat.wav */,
+				1F281DE728D4AC0500EC6947 /* dog.wav */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -252,6 +279,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1F281DCD28D36A4500EC6947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,6 +302,9 @@
 			dependencies = (
 			);
 			name = MultiApp;
+			packageProductDependencies = (
+				1F281DCE28D36A4500EC6947 /* SwiftySound */,
+			);
 			productName = MultiApp;
 			productReference = 1F281D1928D3230600EC6947 /* MultiApp.app */;
 			productType = "com.apple.product-type.application";
@@ -285,6 +322,9 @@
 			dependencies = (
 			);
 			name = iOSTarget;
+			packageProductDependencies = (
+				1F281DD028D36A4F00EC6947 /* SwiftySound */,
+			);
 			productName = iOSTarget;
 			productReference = 1F281D6228D3290000EC6947 /* iOSTarget.app */;
 			productType = "com.apple.product-type.application";
@@ -319,6 +359,9 @@
 			dependencies = (
 			);
 			name = "watchOSTarget Watch App";
+			packageProductDependencies = (
+				1F281DD228D36A5700EC6947 /* SwiftySound */,
+			);
 			productName = "watchOSTarget Watch App";
 			productReference = 1F281D7928D3299D00EC6947 /* watchOSTarget Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -336,6 +379,9 @@
 			dependencies = (
 			);
 			name = tvOSTarget;
+			packageProductDependencies = (
+				1F281DD428D36A5B00EC6947 /* SwiftySound */,
+			);
 			productName = tvOSTarget;
 			productReference = 1F281DA228D32F8A00EC6947 /* tvOSTarget.app */;
 			productType = "com.apple.product-type.application";
@@ -376,6 +422,9 @@
 				Base,
 			);
 			mainGroup = 1F281D1028D3230600EC6947;
+			packageReferences = (
+				1F281DCA28D3681000EC6947 /* XCRemoteSwiftPackageReference "SwiftySound" */,
+			);
 			productRefGroup = 1F281D1A28D3230600EC6947 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -394,6 +443,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DE828D4AC0500EC6947 /* cat.wav in Resources */,
+				1F281DEC28D4AC0500EC6947 /* dog.wav in Resources */,
 				1F281D2528D3230800EC6947 /* Preview Assets.xcassets in Resources */,
 				1F281D2128D3230800EC6947 /* Assets.xcassets in Resources */,
 			);
@@ -403,6 +454,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DE928D4AC0500EC6947 /* cat.wav in Resources */,
+				1F281DED28D4AC0500EC6947 /* dog.wav in Resources */,
 				1F281D6C28D3290200EC6947 /* Preview Assets.xcassets in Resources */,
 				1F281D6928D3290200EC6947 /* Assets.xcassets in Resources */,
 			);
@@ -419,6 +472,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DEA28D4AC0500EC6947 /* cat.wav in Resources */,
+				1F281DEE28D4AC0500EC6947 /* dog.wav in Resources */,
 				1F281D8628D3299F00EC6947 /* Preview Assets.xcassets in Resources */,
 				1F281D8328D3299F00EC6947 /* Assets.xcassets in Resources */,
 			);
@@ -428,6 +483,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F281DEB28D4AC0500EC6947 /* cat.wav in Resources */,
+				1F281DEF28D4AC0500EC6947 /* dog.wav in Resources */,
 				1F281DAC28D32F8B00EC6947 /* Preview Assets.xcassets in Resources */,
 				1F281DA928D32F8B00EC6947 /* Assets.xcassets in Resources */,
 			);
@@ -443,6 +500,7 @@
 				1F281D9B28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281D9328D32AF700EC6947 /* PlayView.swift in Sources */,
 				1F281D9728D32B2000EC6947 /* SettingsView.swift in Sources */,
+				1F281DC628D365F200EC6947 /* SettingsViewModal.swift in Sources */,
 				1F281D1F28D3230600EC6947 /* ContentView.swift in Sources */,
 				1F281DB628D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
 				1F281D1D28D3230600EC6947 /* MultiAppApp.swift in Sources */,
@@ -461,6 +519,7 @@
 				1F281D9428D32AF700EC6947 /* PlayView.swift in Sources */,
 				1F281D9C28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281DB728D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
+				1F281DC728D365F200EC6947 /* SettingsViewModal.swift in Sources */,
 				1F281D6528D3290000EC6947 /* iOSTargetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +537,7 @@
 				1F281D9528D32AF700EC6947 /* PlayView.swift in Sources */,
 				1F281D9D28D32B4100EC6947 /* LeaderboardView.swift in Sources */,
 				1F281DB828D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
+				1F281DC828D365F200EC6947 /* SettingsViewModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +548,7 @@
 				1F281DB228D32F9B00EC6947 /* LeaderboardView.swift in Sources */,
 				1F281DB328D32FA100EC6947 /* MultiAppApp.swift in Sources */,
 				1F281DB428D32FA400EC6947 /* ContentView.swift in Sources */,
+				1F281DC928D365F200EC6947 /* SettingsViewModal.swift in Sources */,
 				1F281DBE28D34A0900EC6947 /* Extensions.swift in Sources */,
 				1F281DB128D32F9800EC6947 /* SettingsView.swift in Sources */,
 				1F281DB928D33C5B00EC6947 /* PlayViewModal.swift in Sources */,
@@ -963,6 +1024,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F281DCA28D3681000EC6947 /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamcichy/SwiftySound";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F281DCE28D36A4500EC6947 /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F281DCA28D3681000EC6947 /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+		1F281DD028D36A4F00EC6947 /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F281DCA28D3681000EC6947 /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+		1F281DD228D36A5700EC6947 /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F281DCA28D3681000EC6947 /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+		1F281DD428D36A5B00EC6947 /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F281DCA28D3681000EC6947 /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F281D1128D3230600EC6947 /* Project object */;
 }

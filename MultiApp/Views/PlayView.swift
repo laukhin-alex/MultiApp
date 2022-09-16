@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import SwiftySound
+
 
 
 struct PlayView: View {
-    @ObservedObject var playView = guessNumber()
+    @EnvironmentObject var playView: GuessNumber
     @State var allertText = ""
     @State var showsAlert = false
     @State var checkNumber = ""
@@ -39,9 +41,7 @@ struct PlayView: View {
                         showsAlert = true
                         allertText = "Вы ввели некорректное число. Попробуйте снова"
                     } else {
-
                         playView.checkNumber(number: checkNumber)
-
                         checkNumber = ""
                         showsAlert = false
                     }
